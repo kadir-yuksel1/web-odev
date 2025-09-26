@@ -1,11 +1,12 @@
 import { FaGithub } from "react-icons/fa";
+import boy from "../../../../public/boy.png"
 
 function Footer() {
   return (
     <div className="flex items-center justify-around flex-col w-[100%] bg-blue-500 text-white h-50 font-bold">
       <div className="flex items-center justify-around flex-row w-[100%] ">
         <div className="w-30 h-30">
-            <img src="/public/boy.png" alt=""/>
+            <img src={boy} alt=""/>
         </div>
         <div className="flex flex-col items-center justify-center  hover:text-gray-300 transition-all duration-500 ease-in">
           <div>Kadir Yüksel</div>
